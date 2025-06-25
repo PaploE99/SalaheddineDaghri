@@ -1,5 +1,7 @@
 import jobit1 from '../assets/jobit1.jpg';
 // import jobit2 from '../assets/jobit2.png';
+import gestionEmp from '../assets/gestionEmp.png';
+
 
 import {
   mobile,
@@ -234,7 +236,7 @@ const projects = [
     source_code_link: "https://github.com/SalahEddineDaghri/Car-Rental-Website",
   },
   {
-    name: "Hotel-App-project",
+    name: "Hotel App project",
     description:
       "The Hotel-app project is an online hotel room booking website focused on a single hotel company. Through this project, the company can promote various rooms to their customers. The website offers detailed information about the hotel.",
     tags: [
@@ -255,25 +257,25 @@ const projects = [
     source_code_link: "https://github.com/SalahEddineDaghri/Hotel-App-project",
   },
   {
-    name: "Trip Guide",
+    name: "Employee Management System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Employee Management System is a web-based application developed as part of a training program. It is designed to streamline and automate various administrative tasks related to employee management.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "Larevl",
+        color: "orange-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Mysql",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: gestionEmp,
+    source_code_link: "https://github.com/SalahEddineDaghri/Employee-Management-System",
   },
 ];
 
