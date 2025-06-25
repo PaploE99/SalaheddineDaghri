@@ -1,3 +1,6 @@
+import jobit1 from '../assets/jobit1.jpg';
+// import jobit2 from '../assets/jobit2.png';
+
 import {
   mobile,
   backend,
@@ -22,6 +25,7 @@ import {
   carrent,
   // carRental,
   jobit,
+  // jobit1,
   tripguide,
   threejs,
   // Laravel
@@ -247,7 +251,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: jobit1,
     source_code_link: "https://github.com/SalahEddineDaghri/Hotel-App-project",
   },
   {
