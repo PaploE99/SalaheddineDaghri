@@ -20,11 +20,12 @@ import {
   tesla,
   shopify,
   carrent,
-  carRental,
+  // carRental,
   jobit,
   tripguide,
   threejs,
   // Laravel
+  
 } from "../assets";
 
 export const navLinks = [
@@ -212,6 +213,10 @@ const projects = [
         name: "react",
         color: "blue-text-gradient",
       },
+       {
+        name: "Laravel",
+        color: "orange-text-gradient",
+      },
       {
         name: "mongodb",
         color: "green-text-gradient",
@@ -225,25 +230,25 @@ const projects = [
     source_code_link: "https://github.com/SalahEddineDaghri/Car-Rental-Website",
   },
   {
-    name: "Job IT",
+    name: "Hotel-App-project",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Hotel-app project is an online hotel room booking website focused on a single hotel company. Through this project, the company can promote various rooms to their customers. The website offers detailed information about the hotel.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Laravel",
+        color: "orange-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Mysql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SalahEddineDaghri/Hotel-App-project",
   },
   {
     name: "Trip Guide",
